@@ -35,7 +35,8 @@
     }
   },
   "dependencies": {
-    "@awesome-cordova-plugins/wechat": "^6.3.0",
+    "@awesome-cordova-plugins/core": "6.3.0",
+    "@awesome-cordova-plugins/wechat": "6.3.0",
     "shelljs": "^0.5.3"
   },
   "author": "xu.li <AthenaLightenedMyPath@gmail.com>",
