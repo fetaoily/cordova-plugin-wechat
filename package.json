@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-wechat",
-  "version": "3.0.0",
+  "name": "@fetaoily/cordova-plugin-wechat-adapt-for-capacitor",
+  "version": "3.0.1",
   "description": "A cordova plugin, a JS version of Wechat SDK",
   "cordova": {
-    "id": "cordova-plugin-wechat",
+    "id": "cordova-plugin-wechat-adapt-for-capacitor",
     "platforms": [
       "ios",
       "android"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xu-li/cordova-plugin-wechat.git"
+    "url": "git+https://github.com/fetaoily/cordova-plugin-wechat.git"
   },
   "keywords": [
     "cordova",
@@ -24,23 +24,29 @@
   ],
   "engines": {
     "cordovaDependencies": {
-        "<2.0.0": {
-          "cordova": ">=3.5.0"
-        },
-        "2.0.0": {
-          "cordova": ">=6.1.0",
-          "cordova-android": ">=6.1.0",
-          "cordova-ios": ">=4.3.1"
-        }
+      "<2.0.0": {
+        "cordova": ">=3.5.0"
+      },
+      "2.0.0": {
+        "cordova": ">=6.1.0",
+        "cordova-android": ">=6.1.0",
+        "cordova-ios": ">=4.3.1"
+      }
     }
   },
-  "dependencies":{
+  "dependencies": {
+    "@awesome-cordova-plugins/wechat": "^6.3.0",
     "shelljs": "^0.5.3"
   },
   "author": "xu.li <AthenaLightenedMyPath@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xu-li/cordova-plugin-wechat/issues"
+    "url": "https://github.com/fetaoily/cordova-plugin-wechat/issues"
   },
-  "homepage": "https://github.com/xu-li/cordova-plugin-wechat#readme"
+  "homepage": "https://github.com/fetaoily/cordova-plugin-wechat#readme",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
